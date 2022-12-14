@@ -1,0 +1,44 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+}
+
+.tabs-container {
+  display: flex;
+  list-style: none;
+  width: 60%;
+}
+
+.search-input-container {
+  background-color: transparent;
+  padding: 10px;
+  border: 2px solid #7b8794;
+  width: 50%;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.search-icon {
+  width: 20px;
+}
+
+.apps-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: flex-start;
+}
